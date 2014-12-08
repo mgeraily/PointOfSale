@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Presentation", "1.Presentation", "{F6BA6D85-5472-451A-B664-8944730C23D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Application", "2.Application", "{C98C1E38-C6E3-4160-9FFA-E5D76819F8A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Domain", "3.Domain", "{7C8FC4C1-FBDC-4425-B3E8-A5A1B5239EB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Infrastrucute", "5.Infrastrucute", "{92AAC9BB-FE05-4D9F-B83E-ADBC74C5F687}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Repository", "4.Repository", "{E4A19853-9DD4-433E-9247-657E8E602DC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS.Model", "POS.Model\POS.Model.csproj", "{85FBCC92-D66F-4EEC-97DC-4FE491B39E44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS.Service", "POS.Service\POS.Service.csproj", "{C9CF373D-4345-4D02-93D3-63AE5E57E9B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS.Repository", "POS.Repository\POS.Repository.csproj", "{9B3C5F30-D09B-4B41-8F5D-5C261D720203}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS.Infrastructure", "POS.Infrastructure\POS.Infrastructure.csproj", "{ED5A9CD4-AFA5-4CF6-9651-349E9F3E3648}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp", "WpfApp\WpfApp.csproj", "{239BD4F4-37BB-4AD1-9202-DBFF658F7467}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85FBCC92-D66F-4EEC-97DC-4FE491B39E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85FBCC92-D66F-4EEC-97DC-4FE491B39E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85FBCC92-D66F-4EEC-97DC-4FE491B39E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85FBCC92-D66F-4EEC-97DC-4FE491B39E44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9CF373D-4345-4D02-93D3-63AE5E57E9B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9CF373D-4345-4D02-93D3-63AE5E57E9B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9CF373D-4345-4D02-93D3-63AE5E57E9B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9CF373D-4345-4D02-93D3-63AE5E57E9B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B3C5F30-D09B-4B41-8F5D-5C261D720203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B3C5F30-D09B-4B41-8F5D-5C261D720203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B3C5F30-D09B-4B41-8F5D-5C261D720203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B3C5F30-D09B-4B41-8F5D-5C261D720203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED5A9CD4-AFA5-4CF6-9651-349E9F3E3648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED5A9CD4-AFA5-4CF6-9651-349E9F3E3648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED5A9CD4-AFA5-4CF6-9651-349E9F3E3648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED5A9CD4-AFA5-4CF6-9651-349E9F3E3648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{239BD4F4-37BB-4AD1-9202-DBFF658F7467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{239BD4F4-37BB-4AD1-9202-DBFF658F7467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{239BD4F4-37BB-4AD1-9202-DBFF658F7467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{239BD4F4-37BB-4AD1-9202-DBFF658F7467}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{85FBCC92-D66F-4EEC-97DC-4FE491B39E44} = {7C8FC4C1-FBDC-4425-B3E8-A5A1B5239EB4}
+		{C9CF373D-4345-4D02-93D3-63AE5E57E9B3} = {C98C1E38-C6E3-4160-9FFA-E5D76819F8A7}
+		{9B3C5F30-D09B-4B41-8F5D-5C261D720203} = {E4A19853-9DD4-433E-9247-657E8E602DC8}
+		{ED5A9CD4-AFA5-4CF6-9651-349E9F3E3648} = {92AAC9BB-FE05-4D9F-B83E-ADBC74C5F687}
+		{239BD4F4-37BB-4AD1-9202-DBFF658F7467} = {F6BA6D85-5472-451A-B664-8944730C23D2}
+	EndGlobalSection
+EndGlobal
